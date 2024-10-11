@@ -12,7 +12,7 @@ const doc = {
     title: 'contacts-api',
     description: 'Contact List API for BYU-Idaho CSE341 Personal Project'
   },
-  host: isProduction ? 'p1-node-web-services-w4.onrender.com' : 'localhost:3000',
+  host: isProduction ? 'xc-p1-node-web-services-w4.onrender.com' : 'localhost:3000',
   schemes: isProduction ? ['https'] : ['http']
 };
 

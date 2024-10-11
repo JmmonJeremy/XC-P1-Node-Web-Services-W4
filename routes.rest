@@ -49,26 +49,26 @@ DELETE http://localhost:3000/contacts/66fe08c7b9dffdc00f411ba4 HTTP/1.1
 
 // PRODUCTION Deploy
 // getting the API docs from Swagger
-GET https://p1-node-web-services-w4.onrender.com/api-docs
+GET https://xc-p1-node-web-services-w4.onrender.com/api-docs
 ### 
 // RETRIEVING CONTACTS WITH GET
 ### home page
-GET https://p1-node-web-services-w4.onrender.com HTTP/1.1
+GET https://xc-p1-node-web-services-w4.onrender.com HTTP/1.1
 ### all contacts
-GET https://p1-node-web-services-w4.onrender.com/contacts
+GET https://xc-p1-node-web-services-w4.onrender.com/contacts
 ### Bryan
-GET https://p1-node-web-services-w4.onrender.com/contacts/66f77d6c74ad0f43e4341169
+GET https://xc-p1-node-web-services-w4.onrender.com/contacts/66f77d6c74ad0f43e4341169
 ### Victoria
-GET https://p1-node-web-services-w4.onrender.com/contacts/66f77d6c74ad0f43e434116a
+GET https:/xc-p1-node-web-services-w4.onrender.com/contacts/66f77d6c74ad0f43e434116a
 ### Ammon
-GET https://p1-node-web-services-w4.onrender.com/contacts/66f77d6c74ad0f43e434116b
+GET https://xc-p1-node-web-services-w4.onrender.com/contacts/66f77d6c74ad0f43e434116b
 ### Miriam
-GET http://p1-node-web-services-w4.onrender.com/contacts/67083f1820e41367f6a90c05
+GET https://xc-p1-node-web-services-w4.onrender.com/contacts/67083f1820e41367f6a90c05
 ### Elizabeth
-GET http://p1-node-web-services-w4.onrender.com/contacts/67083f1820e41367f6a90c06
+GET https://xc-p1-node-web-services-w4.onrender.com/contacts/67083f1820e41367f6a90c06
 // CREATING CONTACT WITH POST
 ### 
-POST https://p1-node-web-services-w4.onrender.com/contacts/ 
+POST https://xc-p1-node-web-services-w4.onrender.com/contacts/ 
 Content-Type: application/json
 
 {
@@ -81,7 +81,7 @@ Content-Type: application/json
 }
 // ALTERING A CONTACT WITH PUT
 ###
-PUT https://p1-node-web-services-w4.onrender.com/contacts/66fe08c7b9dffdc00f411ba4
+PUT https://xc-p1-node-web-services-w4.onrender.com/contacts/66fe08c7b9dffdc00f411ba4
 Content-Type: application/json
 
 {
@@ -93,5 +93,5 @@ Content-Type: application/json
 }
 ###
 // REMOVING A CONTACT WITH DELETE
-DELETE https://p1-node-web-services-w4.onrender.com/contacts/66fe08c7b9dffdc00f411ba4 HTTP/1.1
+DELETE https://xc-p1-node-web-services-w4.onrender.com/contacts/66fe08c7b9dffdc00f411ba4 HTTP/1.1
 ###
